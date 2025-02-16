@@ -4,7 +4,7 @@ function actualizarContador() {
     const diferencia = fechaObjetivo - ahora;
 
     if (diferencia <= 0) {
-        document.getElementById("contador").innerHTML = "¡El evento ha comenzado!";
+        document.getElementById("contador").innerHTML = "¡El evento ha terminado!";
         clearInterval(intervalo);
         return;
     }
